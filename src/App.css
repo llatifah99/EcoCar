@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f5f3f3;
+}
+#hero {
+  width: 100%;
+  height: 606px;
+  background-image: url("./assets/hero.webp");
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+#hero p {
+  -webkit-text-stroke: 0.75px #f2f3fb;
+  color: #505559;
+}
+#hero button {
+  margin-top: 30px;
+  letter-spacing: 10px;
+}
